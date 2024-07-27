@@ -21,14 +21,8 @@ This project contains a set of web scraping spiders built with Scrapy for extrac
    git clone https://github.com/your-username/news_scraper.git
    cd news_scraper
 
-## Run the Inc42 Spider
+## Run the Inc42 Spider, Economic Times, Live Mint Commands
    ```sh
    scrapy runspider spiders/inc42_spider.py -o inc42_articles.json
-
-## Run the Economic Times Spider
-   ```sh
    scrapy runspider spiders/economics_spider.py -o economics_articles.json
-
-## Run the Live Mint Spider
-   ```sh
    scrapy runspider spiders/livemint_spider.py -o livemint_articles.json
